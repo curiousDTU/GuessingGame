@@ -1,6 +1,6 @@
 # GuessingGame
 
-# instrutions to follow:
+# instructions to follow:
 
 Use a while loop to give the user  
 five attempts and display the number of attempts.  
