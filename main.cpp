@@ -11,10 +11,11 @@ int main()
     cout<<"After each wrong guess Game will tell you"<<endl<<"Your guess is HIGH or LOW"<<endl;
     cout<<" BEST OF LUCK"<<endl;
     cout<<"Implement gessing game here";
-/* while(attemp <= 5)
-{
-cout<<endl<<"attempts no. :- "<<attemp<<endl;
-cout<<"enter the guess between 0 - 100 "<<endl;
+/* while(attemp <= 5) {
+    cout << endl << "Attempt no. " << attemp << ": " << endl;
+    cout << "Enter your guess between 0 and 100: ";
+    cin >> guess;
+  if (guess < 0 || guess > 100) {
 //Implement game here
 attemp++;
 }//loop end */
