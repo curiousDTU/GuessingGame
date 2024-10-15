@@ -15,6 +15,7 @@ int main()
 {
 cout<<endl<<"attempts no. :- "<<attemp<<endl;
 cout<<"enter the guess between 0 - 100 "<<endl;
+cin >> guess;
 //Implement game here
 attemp++;
 }//loop end */
