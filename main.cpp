@@ -21,4 +21,7 @@ attemp++;
 cout<<"\n";
 //write your code here..
 cout<<"write your code for user after winning or lossing the game"<<endl;
+if (attempt > maxAttempts) {
+    cout << "Sorry, you've used all your attempts. The correct number was: " << ans << endl;
+}
 }
