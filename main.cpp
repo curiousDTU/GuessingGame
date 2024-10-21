@@ -22,3 +22,8 @@ cout<<"\n";
 //write your code here..
 cout<<"write your code for user after winning or lossing the game"<<endl;
 }
+if (attempts > 5) {
+        cout << "Sorry, you've used all your attempts. The correct number was: " << answer << "." << endl;
+}
+    return 0;
+}
