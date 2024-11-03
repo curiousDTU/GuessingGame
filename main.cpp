@@ -20,5 +20,10 @@ attemp++;
 }//loop end */
 cout<<"\n";
 //write your code here..
+// Check if the guess is valid
+if (guess < 0 || guess > 100) {
+    cout << "Please enter a number between 0 and 100." << endl;
+    continue; // Skip to the next iteration
+}
 cout<<"write your code for user after winning or lossing the game"<<endl;
 }
