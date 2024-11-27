@@ -11,11 +11,24 @@ int main()
     cout<<"After each wrong guess Game will tell you"<<endl<<"Your guess is HIGH or LOW"<<endl;
     cout<<" BEST OF LUCK"<<endl;
     cout<<"Implement gessing game here";
-/* while(attemp <= 5)
+ while(attemp <= 5)
 {
 cout<<endl<<"attempts no. :- "<<attemp<<endl;
 cout<<"enter the guess between 0 - 100 "<<endl;
-//Implement game here
+// Check if the guess is within the valid range
+        if (guess < 0 || guess > 100) {
+            cout << "Please enter a number between 0 and 100." << endl;
+            continue; // Skip the rest of the loop and ask for input again
+        }
+        // Check the guess against the answer
+        if (guess == ans) {
+            cout << "Congratulations! You've guessed the correct number: " << ans << endl;
+            break; // Exit the loop since the user has won
+        } else if (guess < ans) {
+            cout << "Your guess is LOW." << endl;
+        } else {
+            cout << "Your guess is HIGH." << endl;
+        }
 attemp++;
 }//loop end */
 cout<<"\n";
